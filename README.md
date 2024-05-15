@@ -19,5 +19,7 @@ This code uses Intel compilers and the Math Kernel Library (`module load intel m
 
 # License
 This code is available under the terms of the MIT license.
+
 LLNL Release No.: LLNL-CODE-863815
+
 SPDX License Identifier: MIT
