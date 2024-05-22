@@ -1,0 +1,47 @@
+alpha_C11 0.14542054846961167 0.13406835887514906 0.13406835887514906
+beta_C11 2.97001366437066 2.123740707890974 2.13406835887514906
+alpha_C22 0.14542054846961167 0.13406835887514906 0.13406835887514906
+beta_C22 2.97001366437066 2.123740707890974 2.13406835887514906
+alpha_C33 0.1 0.1 0.2
+beta_C33 2.97001366437066 2.123740707890974 2.13406835887514906
+
+isC11 1   # is C11 considered
+isC22 1   # is C22 considered
+isC23 1
+isC33 1
+isC34 1     # C36 (3 atoms, 1 grid point, all atoms connected. 6 bonds)
+isgradient 0
+ishessian 0
+
+ischeb 0
+numG_C11 4  # number of Gaussian bases functions in GTO (C11 and C22_C23)
+numG_C22 4
+numG_C33 2
+poly_order_C11 0   # Polynomial order in GTO or in Chebeshev  (C11, C22-C23)
+poly_order_C22 0
+poly_order_C33 0 # Polynomial order in GTO or in Chebeshev for C33
+
+
+
+chg_stp_jump_dist 5 # (distance between consecutive points for training) A
+lambda 1e-5
+
+den_file_name CHGCAR
+den_file_start_idx 0
+den_file_end_idx 0
+n_element 3
+
+Rcut 5 # implemeted for cheb (in A)
+
+iftraining 1    # if training
+
+ifpredict 0     # not completed done
+
+ifwrite 1
+
+
+
+coeff_file_name None  # use if ifpredict=1
+
+## bases functions
+## 
