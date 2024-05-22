@@ -17,6 +17,9 @@ This code uses Intel compilers and the Math Kernel Library (`module load intel m
 
 `symbolic_regression/regression_with_discovered_features.m` curates frequently-observed sub-expressions from an ensemble of symbolic regression runs and appends them to an existing feature matrix in various combinations. The predictive performance of a linear fit with these expanded matrices is then evaluated.
 
+# Code Availability
+All code used to generate the binary (`main`) that was used in this work is available in the directory `parallel`.
+
 # License
 This code is available under the terms of the MIT license.
 
