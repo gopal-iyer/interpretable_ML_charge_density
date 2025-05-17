@@ -2,7 +2,7 @@
 This repository contains the binary (`main`), input file, and processing/analysis scripts for the manuscript *Interpretable, Extensible Linear and Symbolic Regression Models for Charge Density Prediction Using a Hierarchy of Many-Body Correlation Descriptors* by Iyer, Kumar, Borda, Sadigh, Hamel, Bulatov, Lordi, and Samanta.
 
 # Usage
-This code uses Intel compilers and the Math Kernel Library (`module load intel mkl`). The binary can then be used as-is (`./main sample.in > log`).
+This code uses Intel compilers and the Math Kernel Library (`module load intel mkl`, if those modules are available on your cluster). The binary can then be used as-is (`./main sample.in > log`).
 
 `sample.in` is the main input file for training/prediction, consisting of
 1. Gaussian widths (`alpha_C11`, `beta_C11`, ...),
